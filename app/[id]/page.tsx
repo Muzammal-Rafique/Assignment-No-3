@@ -14,7 +14,7 @@ const Blog = ({params}: props) => {
   return (
     <div className='flex m-4'>
   <div className="flex-1 space-y-3">
-    <h1 className="text-2xl font-bold mb-2">{blog.title}</h1>
+    <h1 className="text-2xl font-bold mb-2 text-black">{blog.title}</h1>
     <p className="text-gray-600">{blog.description}</p>
   </div>
   <img className=" " width='600px' height='500px'  src={blog.image} alt={blog.title} />
