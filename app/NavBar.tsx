@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="bg-blue-500 p-4">
         <div className="container mx-auto">
           <Link href="/" className="text-white text-lg font-bold">
-            My Blog
+            My Blogs
           </Link>
         </div>
       </div>
